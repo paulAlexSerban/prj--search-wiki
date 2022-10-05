@@ -1,7 +1,10 @@
-import { HomePage } from "layout/page/Home";
-
-function App() {
-  return <div className="App">Hello World! {HomePage}</div>;
-}
+import SearchInput from "components/SearchInput";
+const App = () => {
+  return (
+    <div className="App">
+      <SearchInput />
+    </div>
+  );
+};
 
 export default App;
